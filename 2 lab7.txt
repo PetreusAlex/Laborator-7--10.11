@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Petreus Alexandru</title>
+<style>
+body { backround-color: yellow;}
+h1 {color: blue;}
+h2 {color:rgb(123, 23, 34);}
+p {color: #F9AE05;}
+
+table {background-color: #0CF1DE;}
+ul {background-color: #0CF1DE;}
+
+table, tr, td, ul {border: 2px solid black;}
+tr:hover {background-color: #f5f5f5}
+
+h1 {font-family: "Algerian";
+    font-style: italic;
+    font-size: 36px;}
+p {font-family: "Arial";
+   font-size: 18px;}
+   
+img {border: 2px solid black;
+	border-radius: 12px;
+    width: 150px;
+    display: block;
+    padding: 2px;
+    margin: left;
+    opacity: 0.6;
+    }
+</style>
+<script>
+
+function arVarst()
+{
+var azi = new Date;
+var varstMea;
+
+var anNasc = document.getElementById("varsta").innerHTML;
+
+varstMea = azi.getFullYear() - parseInt(anNasc);
+
+document.getElementById("varsta").innerHTML = varstMea;
+}
+</script>
+</head>
+
+<body>
+<h1>Petreus Alexandru Ionut</h1>
+<p>Nume: Petreus</p>
+<p>Prenume: Alexandru Ionut </p>
+<img src="Alex.jpg">
+<p>Email: petreusalexx@gmail.com </p>
+
+<p onmouseover = "arVarst()" id="varsta">2002</p>
+
+<button onclick="veziViitor()">Alta viata</button>
+
+<p>Asteptari: Cat mai putine restante </p>
+<p>Discipline: CCEP, Informatica aplicata, Programarea calculatoarelor</p>
+<table>
+<tr><td>UTCN</td><td>2020-prezent</td><td>student</td></tr>
+<tr><td>CNDV Sighetu Marmatiei</td><td>2016-2020</td><td>bacalaureat</td></tr>
+</table>
+<p>Pasiuni: Sportul, masinile</p>
+<br>
+<a href="file:///C:/Users/Alex/OneDrive/Desktop/etti%20teme/Catalog%20studenti.html">Inapoi la catalogul colegilor</a>
+</body>
+
+</html>
