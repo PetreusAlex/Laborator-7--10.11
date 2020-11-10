@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Petreus Alexandru</title>
+<style>
+body { backround-color: yellow;}
+h1 {color: blue;}
+h2 {color:rgb(123, 23, 34);}
+p {color: #F9AE05;}
+
+table {background-color: #0CF1DE;}
+ul {background-color: #0CF1DE;}
+
+table, tr, td, ul {border: 2px solid black;}
+tr:hover {background-color: #f5f5f5}
+
+h1 {font-family: "Algerian";
+    font-style: italic;
+    font-size: 36px;}
+p {font-family: "Arial";
+   font-size: 18px;}
+   
+img {border: 2px solid black;
+	border-radius: 12px;
+    width: 150px;
+    display: block;
+    padding: 2px;
+    margin: left;
+    opacity: 0.6;
+    }
+</style>
+<script>
+function vezi Viitor()
+{
+document.getElementById("numeProfil").innetHTML = "Petreus Alexandru Ionut";
+
+var tabelEducatie = document.getElementById("tabEducatie");
+tabelEducatie.rows[0].cells[0].innerHTML = "UTC-N";
+tabelEducatie.rows[0].cells[0].innerHTML = "ETTI";
+tabelEducatie.rows[0].cells[0].innerHTML = "CN Dragos Voda";
+tabelEducatie.rows[0].cells[0].innerHTML = "Mate-Info";
+
+document.getElementById("pozaProfil").src = "o7NESRsg";
+
+document.body.style.backgroundColor = "Tomato";
+
+var par = document.getElementByTagName("p");
+var i;
+	for(i=0;i<par.lenght;i++)
+	{ par[i].style.color = "magenta";
+	}
+document.getElementById("pozaProfil").style.opacity = "0.9";
+document.getElementById("pozaProfil").style.border = "6px";
+}
+</script>
+</head>
+
+<body>
+<h1>Petreus Alexandru Ionut</h1>
+<p>Nume: Petreus</p>
+<p>Prenume: Alexandru Ionut </p>
+<img src="Alex.jpg">
+<p>Email: petreusalexx@gmail.com </p>
+
+<button onclick="veziViitor()">Design Nou</button>
+
+<p>Asteptari: Cat mai putine restante </p>
+<p>Discipline: CCEP, Informatica aplicata, Programarea calculatoarelor</p>
+<table>
+<tr><td>UTCN</td><td>2020-prezent</td><td>student</td></tr>
+<tr><td>CNDV Sighetu Marmatiei</td><td>2016-2020</td><td>bacalaureat</td></tr>
+</table>
+<p>Pasiuni: Sportul, masinile</p>
+<br>
+<a href="file:///C:/Users/Alex/OneDrive/Desktop/etti%20teme/Catalog%20studenti.html">Inapoi la catalogul colegilor</a>
+</body>
+
+</html>
